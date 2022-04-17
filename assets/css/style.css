@@ -78,18 +78,20 @@ color: blue;
 }
 
 .footer-basic li {
-    padding: 20px 30px;
+    padding: 5px 8px;
 
 }
 
 .footer-basic ul a {
     color: white;
     text-decoration: none;
+
 }
 
 .footer-basic .social {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding: 10px 0 40px 50px;
 }
 
 .footer-basic .social img {
@@ -101,17 +103,15 @@ color: blue;
 
 
 .footer-basic .copyright {
-    margin-top: 15px;
+    margin-top: 5px;
     text-align: center;
     font-size: 13px;
     color: white;
-    padding-bottom: 10px;
 }
 
 .footer-basic {
-    padding: 50px;
-    margin: 10px;
-background-color: #04AA6D;
+  height: fit-content;
+background-color: #000;
 }
 
 .container {
@@ -263,10 +263,7 @@ height: auto;
     padding-bottom: 10px;
 }
 
-.footer-basic {
 
-}
- 
     }
 
 
@@ -301,7 +298,7 @@ height: auto;
         .navbar a {
             color: white;
             text-decoration: none;
-            font-size: 55px;
+            font-size: 50px;
             margin-top: 30PX;
             text-align: center;
         }
@@ -313,39 +310,42 @@ height: auto;
         
         .house {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            margin: 8px;
+            margin: 20px;
         }
         .house img{
             border-radius: 10px;
+            height: auto;
+            width: 100%;
         }
         .wrapper {
-            padding: 0 16px;
+            padding: 50px 46px;
             background-color: white;
         }
         .inn{
             width: 100%;
-            height: fit-content;align-items: center;
+            align-items: center;
             background-color: #000;
             display: block;
+            height:auto;
     
         }
       
 
         .images{
-            display: flex;
             width: 100%;
             justify-content: center;
+            
         }
         .images img{
-    width: 100%;
-    height: auto;
+    width: 50%;
+ 
 
         }
     .container {
         width: 100%;
         background: #fff;
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 50px;
+        margin-right: 50px;
     }
         
         }
